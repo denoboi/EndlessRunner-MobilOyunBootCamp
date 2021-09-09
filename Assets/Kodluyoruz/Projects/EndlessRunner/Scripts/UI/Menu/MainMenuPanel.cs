@@ -23,4 +23,11 @@ public class MainMenuPanel : Panel
         EventManager.OnGameEnd.RemoveListener(ShowPanel);
 
     }
+
+    public override void ShowPanel()
+    {
+        base.ShowPanel();
+        Destroy(gameObject);
+
+    }
 }

@@ -46,4 +46,5 @@ public class Panel : MonoBehaviour
         CanvasGroup.blocksRaycasts = false;
     }
 
+    
 }
